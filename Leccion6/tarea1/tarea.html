@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Formulario de clientes</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            h1 {color:blue; text-decoration:underline}
+        </style>
+    </head>
+    <body>
+        <form action="guardar.php" method="post">
+            <h1>Formulario de clientes</h1>
+            Ingrese su Nombre:
+            <input type="text" name="nombre">
+            <br>
+            Ingrese su Apellido:
+            <input type="text" name="apellido">
+            <br>
+            Ingrese su C.I.:
+            <input type="text" name="ci">
+            <br>
+            Ingrese su Fecha de nacimiento:
+            <input type="text" name="fecha">
+            <br>
+            Ingrese su Direccion:
+            <input type="text" name="direccion">
+            <br>
+            Ingrese su E-mail:
+            <input type="text" name="email">
+            <br>
+            Comentarios:
+            <br>
+            <textarea name="comentarios" rows="10" cols="40">
+            </textarea>
+            <br>
+            <input type="submit" value="Registrar">
+        </form>
+    </body>
+</html>
